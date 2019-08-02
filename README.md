@@ -1,4 +1,6 @@
 # django-api-template
+[![Build Status](https://travis-ci.com/Diaga/django-api-template.svg?branch=master)](https://travis-ci.com/Diaga/django-api-template)
+
 Template for creating robust APIs with django rest framework!
 
 This template contains configured Dockerfile, docker-compose and .travis.yml files. The template follows best practices for test-driven development of APIs. The template uses postgresql database.
