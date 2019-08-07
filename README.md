@@ -3,7 +3,7 @@
 
 Template for creating robust APIs with django rest framework!
 
-This template contains configured Dockerfile, docker-compose and .travis.yml files. The template follows best practices for test-driven development of APIs. The template uses postgresql database.
+This template contains configured Dockerfile, docker-compose and .travis.yml files.
 
 ## Project Structure
 All models are placed in models.py file in 'app' folder along with unit tests.
