@@ -17,5 +17,15 @@ Update requirements.txt file with latest versions of libraries.
 
 Set suitable user & password for database in docker-compose file.
 
+## Commands
+* Start new app:
+    ```shell script
+    python manage.py template_startapp
+    ```
+* Run unit tests:
+    ```shell script
+    python manage.py test && flake8
+    ```
+
 ## ToDo
-Add management commands to create new apps.
+Add commands to easily create customized user
