@@ -18,6 +18,6 @@ RUN mkdir -p /vol/web/media
 RUN mkdir -p /vol/web/static
 
 RUN adduser -D asperal
-RUN chown -R asperal .
+RUN chown asperal .
 RUN chmod -R 755 .
 USER asperal
