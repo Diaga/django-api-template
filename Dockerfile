@@ -11,7 +11,6 @@ RUN pip install -r /requirements.txt
 RUN apk del .tmp-build-deps
 
 RUN mkdir /app
-RUN chmod -R 755 /app
 WORKDIR /app
 COPY ./app /app
 
@@ -19,6 +18,6 @@ RUN mkdir -p /vol/web/media
 RUN mkdir -p /vol/web/static
 
 RUN adduser -D asperal
-RUN chown -R asperal /vol/
-RUN chmod -R 755 /vol/web
+RUN chown -R asperal .
+RUN chmod -R 755 .
 USER asperal
