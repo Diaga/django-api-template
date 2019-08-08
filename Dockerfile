@@ -11,6 +11,7 @@ RUN pip install -r /requirements.txt
 RUN apk del .tmp-build-deps
 
 RUN mkdir /app
+RUN chmod -R 755 /app
 WORKDIR /app
 COPY ./app /app
 
