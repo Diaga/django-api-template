@@ -20,7 +20,7 @@ Set suitable user & password for database in docker-compose file.
 ## Commands
 * Start new app:
     ```shell script
-    python manage.py template_startapp
+    python manage.py template_startapp <app_name>
     ```
 * Run unit tests:
     ```shell script
